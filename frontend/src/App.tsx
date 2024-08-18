@@ -19,6 +19,7 @@ import ShipmentForm from "./pages/shipment";
 import CheckInPage from "./pages/checkin";
 import EagleView from "./pages/eagle-view";
 import { TrailerProvider } from "./providers/eagle-view-context";
+import ReportPage from "./pages/report";
 import LoadingForm from "./pages/LoadingForm";
 
 const App = () => {
@@ -55,6 +56,7 @@ const App = () => {
               <Route path="/ship" element={<ShipmentForm />} />
               <Route path="/check-in" element={<CheckInPage />} />
               <Route path="/eagle-view" element={<EagleView />} />
+              <Route path="/report" element={<ReportPage />} />
             </Route>
           </Routes>
         </TrailerProvider>
